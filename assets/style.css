@@ -1,8 +1,8 @@
 /* variables declaration */
 :root {
-	--primary-color: #3396C0;
-	--secondary-color: #CD006B;
-	--third-color: #EEE325;
+	--primary-color: #3396c0;
+	--secondary-color: #cd006b;
+	--third-color: #eee325;
 }
 
 /* Reset CSS */
@@ -11,19 +11,87 @@
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 }
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -32,21 +100,34 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
 	display: block;
 }
 body {
 	line-height: 1;
 }
-ol, ul {
+ol,
+ul {
 	list-style: none;
 }
-blockquote, q {
+blockquote,
+q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
 	content: none;
 }
 table {
@@ -54,7 +135,6 @@ table {
 	border-spacing: 0;
 }
 body {
-
 }
 section {
 	margin-block: 6em;
@@ -65,21 +145,22 @@ h2 {
 	font-weight: 900;
 	margin-block: 1em;
 }
-h3{
+h3 {
 	font-family: 'Roboto Slab', sans-serif;
 	font-size: 22px;
 	font-weight: 900;
 	margin-block: 1em;
 }
 
-p, li {
+p,
+li {
 	font-family: Roboto, sans-serif;
 	font-size: 16px;
 	line-height: 26px;
 }
 .container {
 	max-width: 1440px;
-	margin-inline:auto;
+	margin-inline: auto;
 	padding-inline: 5%;
 }
 header {
@@ -87,15 +168,15 @@ header {
 	justify-content: space-between;
 	align-items: center;
 }
-.logo{
+.logo {
 	width: 260px;
 	margin-block: 10px;
 }
 
 .btn {
-	background-color: var(--primary-color) ;
+	background-color: var(--primary-color);
 	padding: 16px 32px;
-	margin-inline:5px;
+	margin-inline: 5px;
 	border-radius: 5px;
 	color: white;
 	text-decoration: none;
@@ -126,10 +207,10 @@ header {
 #banner .arrow {
 	position: absolute;
 }
-#banner .arrow_left {
+#banner .arrow-left {
 	left: 10px;
 }
-#banner .arrow_right {
+#banner .arrow-right {
 	right: 10px;
 }
 /* Gestion des points du carrousel */
@@ -145,9 +226,9 @@ header {
 	background-color: #ffffff00;
 	border: 3px solid #fff;
 	border-radius: 100%;
-	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);;
+	box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
-.dot_selected {
+.dot-selected {
 	background-color: #fff;
 }
 /* Fin du code CSS pour le carousel */
@@ -168,17 +249,17 @@ header {
 #about-us {
 	display: flex;
 }
-#about-us article, #about-us aside {
-	flex:1;
+#about-us article,
+#about-us aside {
+	flex: 1;
 }
 #about-us li {
-	background: url("./images/tricolor-icon.png") no-repeat left top;
+	background: url('./images/tricolor-icon.png') no-repeat left top;
 	font-size: 16px;
 	line-height: 26px;
-	padding-left:2em;
+	padding-left: 2em;
 	width: 65%;
 	margin-bottom: 1em;
-
 }
 
 #products {
@@ -186,8 +267,9 @@ header {
 	align-items: flex-start;
 	flex-direction: row-reverse;
 }
-#products div, #products aside {
-	flex:1;
+#products div,
+#products aside {
+	flex: 1;
 }
 #products div {
 	padding: 0 6em;
@@ -216,7 +298,7 @@ header {
 	flex-direction: column;
 	text-align: center;
 }
-#why-us > div{
+#why-us > div {
 	display: flex;
 	justify-content: space-evenly;
 }
@@ -234,21 +316,21 @@ header {
 	object-fit: contain;
 }
 
-.bg-lightblue{
-	background-color: #E6F4FB;
+.bg-lightblue {
+	background-color: #e6f4fb;
 }
 #contact {
 	margin-bottom: 0;
 }
-#contact article, #contact div {
-	flex:1;
+#contact article,
+#contact div {
+	flex: 1;
 }
-
 
 #contact .container {
 	flex-direction: row;
 	display: flex;
-	padding: 6em ;
+	padding: 6em;
 }
 
 #contact .container > div > div {
@@ -258,15 +340,15 @@ header {
 
 #contact h3 {
 	margin-top: 0;
-	background: url("./images/tricolor-icon.png") no-repeat left top;
-	padding-left:1.5em;
+	background: url('./images/tricolor-icon.png') no-repeat left top;
+	padding-left: 1.5em;
 	width: 200px;
 }
 .inline-icon {
 	vertical-align: middle;
 }
 footer {
-	background-color: #28363D;
+	background-color: #28363d;
 	color: white;
 	display: flex;
 	padding-block: 3em;
@@ -275,7 +357,6 @@ footer {
 	align-items: center;
 }
 footer div {
-
 	position: relative;
 }
 .footer-logo {
@@ -287,7 +368,6 @@ footer div {
 	margin-bottom: 1em;
 	font-weight: 700;
 	font-size: 16px;
-
 }
 
 @media all and (max-width: 1250px) {
